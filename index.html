@@ -18,9 +18,11 @@
   <meta property="og:site_name" content="Maaz Ahmad Portfolio">
   <meta property="og:url" content="https://maazahmadyousafzai.github.io/Portfolio/">
   <meta property="og:title" content="Maaz Ahmad | Professional Portfolio">
-  <meta property="og:description" content="Computer Science, academic projects, technical skills and professional experience.">
+  <meta property="og:description" content="Maaz Ahmad — Computer Science, software projects, research and professional experience.">
+  <meta property="og:image" content="https://maazahmadyousafzai.github.io/Portfolio/assets/profile.jpg">
 
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://maazahmadyousafzai.github.io/Portfolio/assets/profile.jpg">
   <meta name="twitter:title" content="Maaz Ahmad | Professional Portfolio">
   <meta name="twitter:description" content="Explore Maaz Ahmad's education, skills, academic work and professional experience.">
 
@@ -239,17 +241,13 @@
     }
 
     .avatar{
-      width:190px;
-      height:190px;
+      width:220px;
+      height:220px;
+      object-fit:cover;
+      object-position:center 32%;
       border-radius:50%;
-      display:grid;
-      place-items:center;
-      font:700 4rem var(--display);
-      letter-spacing:-5px;
-      color:#dffbff;
-      background:linear-gradient(145deg,#1d456b,#101a2a);
-      border:1px solid rgba(120,228,220,.55);
-      box-shadow:0 0 80px rgba(102,168,255,.2),inset 0 0 35px rgba(120,228,220,.1);
+      border:3px solid rgba(120,228,220,.72);
+      box-shadow:0 0 80px rgba(102,168,255,.25),0 0 0 10px rgba(120,228,220,.06);
       z-index:2;
     }
 
@@ -702,9 +700,8 @@
       .hero-card{height:290px}
 
       .avatar{
-        width:150px;
-        height:150px;
-        font-size:3.2rem;
+        width:170px;
+        height:170px;
       }
 
       .orbit{width:245px;height:245px}
@@ -821,10 +818,10 @@
         </div>
       </div>
 
-      <div class="hero-card" aria-label="Profile illustration">
+      <div class="hero-card" aria-label="Profile photo">
         <div class="orbit orbit-one"></div>
         <div class="orbit orbit-two"></div>
-        <div class="avatar" aria-label="Maaz Ahmad initials">MA</div>
+        <img class="avatar" src="assets/profile.jpg" alt="Maaz Ahmad — professional profile photo" width="220" height="220">
         <div class="floating-chip chip-top">PHP · MySQL · Web</div>
         <div class="floating-chip chip-bottom">Learning · Growing · Contributing</div>
       </div>
