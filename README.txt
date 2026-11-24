@@ -1,15 +1,28 @@
-MAAZ AHMAD — DEVELOPER PORTFOLIO
+# Maaz Ahmad — Portfolio
 
-Files:
-- index.html: complete, responsive, single-file portfolio website.
+This repository contains the source for my personal portfolio website.
 
-Publish with GitHub Pages:
-1. Create a new public GitHub repository named: portfolio
-2. Upload index.html to the repository root.
-3. Open repository Settings > Pages.
-4. Under Build and deployment, choose Deploy from a branch.
-5. Select branch main and folder /(root), then Save.
-6. Wait for GitHub Pages to publish. Your URL will be:
-   https://maazahmadyousafzai557-netizen.github.io/portfolio/
+## View the portfolio
 
-No CV or profile photo is required for this first launch. Both can be added later.
+[Open the live website](https://maazahmadyousafzai.github.io/Portfolio/)
+
+## Project files
+
+- `index.html` — portfolio content, layout, styling and responsive behaviour.
+- `assets/profile.jpg` — profile image used on the site.
+
+## Publishing with GitHub Pages
+
+1. Open this repository's **Settings**.
+2. Select **Pages** from the sidebar.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select the `main` branch and the repository root (`/`).
+5. Save the settings and allow GitHub Pages to finish publishing.
+
+## Updating the site
+
+Edit `index.html` to update the profile, experience, projects or contact details. Keep the profile image square and use a clear, high-resolution source when replacing `assets/profile.jpg`.
+
+## Notes
+
+The site is a professional portfolio and is intended to describe my education, work experience, technical projects, research record and skills accurately. Project descriptions should reflect the current repository and should not claim that integrations are production-ready unless they have been tested in that environment.
